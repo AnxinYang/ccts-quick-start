@@ -1,18 +1,18 @@
 {
   "name": "tip-cal-v2",
   "version": "1.0.0",
-  "description": "",
+  "description": "a tip calculator",
   "main": "index.js",
   "scripts": {
     "init": "npm install",
     "build": "webpack -p --config webpack.config.production.js",
-    "start": "webpack-dev-server --config webpack.config.dev.js --host 0.0.0.0 --port 1992 --display-error-details",
+    "start": "webpack-dev-server --config webpack.config.dev.js",
     "dev": "webpack --config webpack.config.dev.js --watch",
     "scss": "sass --watch src/main.scss build/main.css"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnxinYang/ccts-quick-start.git"
+    "url": "git+https://github.com/AnxinYang/tip-cal-v2.git"
   },
   "keywords": [
     "tip"
@@ -20,9 +20,9 @@
   "author": "Anxin Yang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AnxinYang/ccts-quick-start/issues"
+    "url": "https://github.com/AnxinYang/tip-cal-v2/issues"
   },
-  "homepage": "https://github.com/AnxinYang/ccts-quick-start#readme",
+  "homepage": "https://github.com/AnxinYang/tip-cal-v2#readme",
   "dependencies": {
     "ccts": "^1.0.1"
   }
