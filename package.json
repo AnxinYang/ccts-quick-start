@@ -1,7 +1,7 @@
 {
   "name": "tip-cal-v2",
   "version": "1.0.0",
-  "description": "a tip calculator",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "init": "npm install",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnxinYang/tip-cal-v2.git"
+    "url": "git+https://github.com/AnxinYang/ccts-quick-start.git"
   },
   "keywords": [
     "tip"
@@ -20,9 +20,9 @@
   "author": "Anxin Yang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AnxinYang/tip-cal-v2/issues"
+    "url": "https://github.com/AnxinYang/ccts-quick-start/issues"
   },
-  "homepage": "https://github.com/AnxinYang/tip-cal-v2#readme",
+  "homepage": "https://github.com/AnxinYang/ccts-quick-start#readme",
   "dependencies": {
     "ccts": "^1.0.1"
   }
